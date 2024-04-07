@@ -27,7 +27,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/carnaen/script/master/menu/menu.zip
+    wget https://raw.githubusercontent.com/carnaen/sc/master/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
